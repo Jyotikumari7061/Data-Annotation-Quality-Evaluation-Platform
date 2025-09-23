@@ -1,0 +1,14 @@
+import { useState, useEffect } from \"react\";
+import \"./App.css\";
+import { BrowserRouter, Routes, Route } from \"react-router-dom\";
+import axios from \"axios\";
+import { Button } from \"./components/ui/button\";
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from \"./components/ui/card\";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from \"./components/ui/tabs\";
+import { Badge } from \"./components/ui/badge\";
+import { Checkbox } from \"./components/ui/checkbox\";
+import { Textarea } from \"./components/ui/textarea\";
+import { Progress } from \"./components/ui/progress\";
+import { Toaster } from \"./components/ui/sonner\";
+import { toast } from \"sonner\";
+import { Upload, FileText, BarChart3, ArrowLeft, ArrowRight, Download } from \"lucide-react\";
