@@ -73,13 +73,6 @@ Backend Setup
 cd backend
 python -m venv venv
 
-# Windows
-venv\Scripts\activate
-
-# macOS/Linux
-source venv/bin/activate
-
-pip install -r requirements.txt
 Frontend Setup
 
 cd ../frontend
@@ -219,3 +212,14 @@ Upcoming Features
  API Rate Limiting: Enhanced security and performance
  Docker Support: Containerized deployment
  Cloud Integration: AWS/GCP/Azure compatibility
+
+
+Acknowledgments
+Shadcn/UI - Beautiful and accessible UI components
+FastAPI - Modern, fast web framework for Python
+React Team - Incredible JavaScript library
+MongoDB - Flexible, scalable database solution
+Open Source Community - Inspiration and continuous learning
+
+# Windows
+venv\Scripts\activate
